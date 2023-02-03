@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(54, 39, 39);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.cal-wrapper {
+  width: 30%;
+  margin: auto;
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 10px 10px 5px 5px;
+  background-color: white;
+}
+input {
+  width: 100%;
+  padding: 3rem;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+.btn-wrapper {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+button {
+  background-color: rgb(201, 199, 199);
+  border-radius: 0.5rem;
+}
+span {
+  font-weight: 900;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.equal-sign {
+  grid-column: 4;
+  grid-row: 2 / 6;
+  background-color: green;
+}
+
+.clear {
+  background-color: red;
+}
